@@ -34,7 +34,7 @@ describe('Game', () => {
     expect(game.bonusRound).to.equal(false);
     expect(game.players).to.deep.equal({});
     expect(game.puzzleKeys).to.deep.equal(['one_word_answers',
-      'two_word_answers', 'three_word_answers', 'four_word_answers']);
+      'two_word_answers', 'three_word_answers', 'four_word_answers', 'five_word_answers']);
   });
 
   it('should be able to take in player names', () => {

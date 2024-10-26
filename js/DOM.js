@@ -6,7 +6,7 @@ const domUpdates = {
     let players = [];
     players.push(this.getPlayerOne());
     players.push(this.getPlayerTwo());
-    players.push(this.getPlayerThree());
+    // players.push(this.getPlayerThree());
     return players;
   },
 
@@ -43,7 +43,7 @@ const domUpdates = {
   clearInputs() {
     $('.player1-name').val('');
     $('.player2-name').val('');
-    $('.player3-name').val('');
+    // $('.player3-name').val('');
   },
 
   goToGameScreen() {
@@ -54,28 +54,28 @@ const domUpdates = {
   displayNames(playerArray, index) {
     $('.game-winner').text(playerArray[index].name);
     $('.winning-score').text(playerArray[index].wallet);
-    if (index === 2) {
+    if (index === 1) {
       $('.on-deck-name').text(playerArray[0].name);
       $('.on-deck-score').text(playerArray[0].wallet);
-      $('.in-the-hole-name').text(playerArray[1].name);
-      $('.in-the-hole-score').text(playerArray[1].wallet);
-    } else if (index === 1) {
-      $('.on-deck-name').text(playerArray[2].name);
-      $('.on-deck-score').text(playerArray[2].wallet);
-      $('.in-the-hole-name').text(playerArray[0].name);
-      $('.in-the-hole-score').text(playerArray[0].wallet);
+    //   $('.in-the-hole-name').text(playerArray[1].name);
+    //   $('.in-the-hole-score').text(playerArray[1].wallet);
+    // } else if (index === 1) {
+    //   $('.on-deck-name').text(playerArray[2].name);
+    //   $('.on-deck-score').text(playerArray[2].wallet);
+    //   $('.in-the-hole-name').text(playerArray[0].name);
+    //   $('.in-the-hole-score').text(playerArray[0].wallet);
     } else {
       $('.on-deck-name').text(playerArray[1].name);
       $('.on-deck-score').text(playerArray[1].wallet);
-      $('.in-the-hole-name').text(playerArray[2].name);
-      $('.in-the-hole-score').text(playerArray[2].wallet);
+      // $('.in-the-hole-name').text(playerArray[2].name);
+      // $('.in-the-hole-score').text(playerArray[2].wallet);
     }
     
       
   },
 
   displayWinner(winner, score) {
-    $('.game-winner').text(`${winner} WINS!!`);
+     $('.game-winner').text(`${winner} WINS!!`);
     $('.winning-score').text(score);
   },
 
@@ -180,21 +180,21 @@ const domUpdates = {
   newPlayerTurn(array, index) {
     $('.game-winner').text(array[index].name);
     $('.winning-score').text(array[index].wallet);
-    if (index === 2) {
+    if (index === 1) {
       $('.on-deck-name').text(array[0].name);
       $('.on-deck-score').text(array[0].wallet);
-      $('.in-the-hole-name').text(array[1].name)
-      $('.in-the-hole-score').text(array[1].wallet)
-    } else if (index === 1) {
-      $('.on-deck-name').text(array[2].name);
-      $('.on-deck-score').text(array[2].wallet);
-      $('.in-the-hole-name').text(array[0].name)
-      $('.in-the-hole-score').text(array[0].wallet)
+      // $('.in-the-hole-name').text(array[1].name)
+      // $('.in-the-hole-score').text(array[1].wallet)
+    // } else if (index === 1) {
+    //   $('.on-deck-name').text(array[2].name);
+    //   $('.on-deck-score').text(array[2].wallet);
+    //   $('.in-the-hole-name').text(array[0].name)
+    //   $('.in-the-hole-score').text(array[0].wallet)
     } else {
       $('.on-deck-name').text(array[1].name);
       $('.on-deck-score').text(array[1].wallet);
-      $('.in-the-hole-name').text(array[2].name)
-      $('.in-the-hole-score').text(array[2].wallet)
+      // $('.in-the-hole-name').text(array[2].name)
+      // $('.in-the-hole-score').text(array[2].wallet)
     }
   },
 
@@ -277,10 +277,10 @@ const domUpdates = {
   clearBankAccts() {
     $('.player1-ba-num').text('0');
     $('.player2-ba-num').text('0');
-    $('.player3-ba-num').text('0');
+    // $('.player3-ba-num').text('0');
     $('.player1-ba').text('P1: $');
     $('.player2-ba').text('P2: $');
-    $('.player3-ba').text('P3: $')
+    // $('.player3-ba').text('P3: $')
   },
 
   displayBonusIntro(winner, score) {
