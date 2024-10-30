@@ -30,15 +30,15 @@ const domUpdates = {
     return playerTwo;
   },
   
-  getPlayerThree() {
-    if ($('.player3-name').val()) {
-      var playerThree = new Player($('.player3-name').val());
-      $('.player3-ba').text(`${$('.player3-name').val()}: $`);
-    } else {
-      var playerThree = new Player('Player 3');
-    }
-    return playerThree;
-  },
+  // getPlayerThree() {
+  //   if ($('.player3-name').val()) {
+  //     var playerThree = new Player($('.player3-name').val());
+  //     $('.player3-ba').text(`${$('.player3-name').val()}: $`);
+  //   } else {
+  //     var playerThree = new Player('Player 3');
+  //   }
+  //   return playerThree;
+  // },
 
   clearInputs() {
     $('.player1-name').val('');

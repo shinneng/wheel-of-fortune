@@ -37,6 +37,19 @@ const data = {
         }
       ]
     },
+    three_word_answers: {
+      date: 'Nov 30 2024',
+      puzzle_bank: [
+        {  
+          category: 'Praise & Worship',
+          number_of_words: 3,
+          total_number_of_letters: 15,
+          first_word: 7, 
+          description:'Praise song by Planershaker',
+          correct_answer: 'Running After You',
+        }
+      ]
+    },
     four_word_answers: {
       date: 'Nov 30 2024',
       puzzle_bank: [
