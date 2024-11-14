@@ -24,19 +24,6 @@ const data = {
   7000
   ],
   puzzles: {
-    one_word_answers: {
-      date: 'Oct 07 2018',
-      puzzle_bank: [
-        {  
-          category: 'Around The House',
-          number_of_words: 1,
-          total_number_of_letters: 8,
-          first_word: 8, 
-          description:'Location or object(s) found within a typical house.',
-          correct_answer: 'Armchair',
-        }
-      ]
-    },
     three_word_answers: {
       date: 'Nov 30 2024',
       puzzle_bank: [
