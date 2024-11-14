@@ -41,12 +41,20 @@ const data = {
       date: 'Nov 30 2024',
       puzzle_bank: [
         {  
-          category: 'Praise & Worship',
+          category: 'Praise',
           number_of_words: 3,
           total_number_of_letters: 15,
           first_word: 7, 
-          description:'Praise song by Planershaker',
+          description:'Song title by Planershaker',
           correct_answer: 'Running After You',
+        },
+        {  
+          category: 'Praise Song',
+          number_of_words: 3,
+          total_number_of_letters: 13,
+          first_word: 4, 
+          description:'Song title by Hillsong Worship',
+          correct_answer: 'King Of Majesty',
         }
       ]
     },
@@ -54,20 +62,20 @@ const data = {
       date: 'Nov 30 2024',
       puzzle_bank: [
         {  
-          category: 'Around The House',
+          category: 'Praise Song',
           number_of_words: 4,
           total_number_of_letters: 17,
-          first_word: 4, 
-          description:'Location or object(s) found within a typical house.',
-          correct_answer: 'Roll Of Toilet Paper',
+          first_word: 2, 
+          description:'Chorus of a Camp Song.',
+          correct_answer: 'We Will Stand Strong',
         },
         {  
-          category: 'The 90s',
+          category: 'Bible verse',
           number_of_words: 4,
-          total_number_of_letters: 19,
-          first_word: 4, 
-          description:'Puzzles pertaining to the decade in question.',
-          correct_answer: 'Mary Kate & Ashley Olsen',
+          total_number_of_letters: 17,
+          first_word: 6, 
+          description:'Bible verse in Galations',
+          correct_answer: 'Fruits Of The Spirit',
         }
       ]
     },
@@ -75,12 +83,33 @@ const data = {
       date: 'Nov 30 2024',
       puzzle_bank: [
         {  
-          category: 'Around The House',
+          category: 'Bible verse',
           number_of_words: 5,
-          total_number_of_letters: 11,
-          first_word: 1, 
+          total_number_of_letters: 23,
+          first_word: 4, 
+          description:'Part of the Lord Prayer',
+          correct_answer: 'Lead Us Not Into Temptation',
+        }
+      ]
+    },
+    six_word_answers: {
+      date: 'Nov 30 2024',
+      puzzle_bank: [
+        {  
+          category: 'Worship Song',
+          number_of_words: 6,
+          total_number_of_letters: 16,
+          first_word: 3, 
+          description:'Lyrics with Jesus, Lamb of God',
+          correct_answer: 'You Are My All in All',
+        },
+        {  
+          category: 'Praise Song',
+          number_of_words: 6,
+          total_number_of_letters: 24,
+          first_word: 5, 
           description:'Location or object(s) found within a typical house.',
-          correct_answer: 'I Am A Good Boy',
+          correct_answer: 'Whose Side Are You Leaning On',
         }
       ]
     }
